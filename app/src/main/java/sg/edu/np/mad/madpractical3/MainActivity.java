@@ -54,4 +54,8 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        findViewById(R.id.button2).setOnClickListener(v ->{
+            Intent MessageActivity = new Intent(MainActivity.this, MessageGroup.class);
+            startActivity(MessageActivity);
+        });
     }}
